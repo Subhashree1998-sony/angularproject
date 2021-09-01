@@ -1,0 +1,61 @@
+
+ <h1 style="text-align:center">
+    REGISTRATION FORM
+</h1>
+<form>
+    <div class="container">
+     <div class="row" style="padding-left: 150px;">
+    <div class="col-sm-6">
+        
+        <label  class="label col-md-3 control-label"for="exampleusername">Username</label>
+        <input type="text" name="username" class="form-control" id="exampleusername"placeholder="Admin" required name="username" [(ngModel)]="stdEntity.name" />
+    </div>
+    </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row" style="padding-left: 150px;">
+    <div class="col-sm-6">
+        <label class="label col-md-3 control-label" for="examplerollno">rollno</label>
+        <input type="number" name="rollno" class="form-control" id="examplerollno"placeholder="rollno" required name="rollno" [(ngModel)]="stdEntity.rollno" />
+    </div>
+    </div>
+    </div>
+    
+    <div class="container">
+    <div class="row" style="padding-left: 150px;">
+    <div class="col-sm-6">
+        <label class="label col-md-3 control-label" for="exampleemail">Email</label>
+        <input type="email" name="email" class="form-control" id="exampleemail"placeholder="Email" required name="Email" [(ngModel)]="stdEntity.Emailid" />
+    </div>
+    </div>
+    </div>
+    
+    <div class="container">
+    <div class="row" style="padding-left: 150px;">
+    <div class="col-sm-6">
+        <label class="label col-md-3 control-label" for="examplecourse">Course</label>
+        <input type="text" name="Course" class="form-control" id="examplecourse"placeholder="course" required name="course" [(ngModel)]="course" />
+    </div>
+    </div>
+    </div>
+    
+    <div class="container">
+     <div class="row" style="padding-left: 260px;">
+    <div class="col-sm-6">
+        <label  class="label col-md-3 control-label" for="examplepassword">Password</label>
+        <input type="password" name="Password" class="form-control" id="examplepassword"placeholder="password" required name="password" [(ngModel)]="password" />
+    </div>
+    </div>
+    </div>
+    
+    <div class="container">
+        <div class="row" style="padding-left: 150px;">
+    <div class="col-sm-6">
+        <input type="submit"  class="btn btn-primary" value="Registration" (click)="registerStudent()">
+    </div>
+    </div>
+    </div>
+    
+</form> 

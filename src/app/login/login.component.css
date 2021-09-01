@@ -1,0 +1,14 @@
+.col-sm-6 {
+  background: rgb(red, green, blue);
+   border: 0px;
+   border-radius: 0px;
+   border-bottom: 2px solid white;
+   font-size: 21px;
+    color: black;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+  }
+  
